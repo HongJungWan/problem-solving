@@ -13,24 +13,6 @@ type Queue struct {
 	stackTwo *Stack
 }
 
-func main() {
-	queue := NewQueue()
-	queue.Enqueue(1)
-	queue.Enqueue(2)
-	queue.Enqueue(3)
-
-	// 큐의 첫 번째 요소 출력
-	front, _ := queue.Peek()
-	fmt.Println("Front Element: ", front) // 출력: Front Element: 1
-
-	// 큐의 요소 제거 및 출력
-	deleteItem, _ := queue.Dequeue()
-	fmt.Println("Dequeue Element: ", deleteItem) // 출력: Dequeue Element: 1
-
-	// 큐가 비어있는지 확인
-	fmt.Println("Is Queue Empty?", queue.IsEmpty()) // 출력: Is Queue Empty? false
-}
-
 func NewStack() *Stack {
 	return &Stack{
 		items: []int{},
@@ -99,4 +81,22 @@ func (queue *Queue) Peek() (int, error) {
 
 func (queue *Queue) IsEmpty() bool {
 	return queue.stackOne.IsEmpty() && queue.stackTwo.IsEmpty()
+}
+
+func main() {
+	queue := NewQueue()
+	queue.Enqueue(1)
+	queue.Enqueue(2)
+	queue.Enqueue(3)
+
+	// 큐의 첫 번째 요소 출력
+	front, _ := queue.Peek()
+	fmt.Println("Front Element: ", front) // 출력: Front Element: 1
+
+	// 큐의 요소 제거 및 출력
+	deleteItem, _ := queue.Dequeue()
+	fmt.Println("Dequeue Element: ", deleteItem) // 출력: Dequeue Element: 1
+
+	// 큐가 비어있는지 확인
+	fmt.Println("Is Queue Empty?", queue.IsEmpty()) // 출력: Is Queue Empty? false
 }
