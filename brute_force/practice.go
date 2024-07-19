@@ -18,6 +18,19 @@ func findTopScorers(answers []int) []int {
 	return identifyTopScorers(scores)
 }
 
+// 가장 많은 정답을 맞춘 수포자를 찾음
+func identifyTopScorers(scores []int) []int {
+	maxScore := max(scores...)
+	var topScorers []int
+
+	for i, score := range scores {
+		if score == maxScore {
+			topScorers = append(topScorers, i+1)
+		}
+	}
+	return topScorers
+}
+
 // 각 수포자의 점수를 계산
 func calculateScores(answers []int) []int {
 	scores := []int{0, 0, 0}
@@ -35,20 +48,6 @@ func calculateScores(answers []int) []int {
 	}
 
 	return scores
-}
-
-// 가장 많은 정답을 맞춘 수포자를 찾음
-func identifyTopScorers(scores []int) []int {
-	maxScore := max(scores...)
-	var topScorers []int
-
-	for i, score := range scores {
-		if score == maxScore {
-			topScorers = append(topScorers, i+1)
-		}
-	}
-
-	return topScorers
 }
 
 // 가변 인자를 받아 최대값을 반환
