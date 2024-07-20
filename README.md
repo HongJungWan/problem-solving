@@ -3,7 +3,7 @@
 | Main Folder   | Sub Folder                                    | Number of Questions     |
 | ------------- |-----------------------------------------------|-------------------------|
 | 📁 array      |                                               | 04                      |
-| 📁 brute_force|                                               | 00                      |
+| 📁 brute_force|                                               | 01                      |
 | 📁 decimal    |                                               | 01                      |
 | 📁 dp         | 📂 fibonacci                                  | 04                      |
 | 📁 graph      | 📂 bfs<br> 📂 dfs                             | 01<br> 01               |
