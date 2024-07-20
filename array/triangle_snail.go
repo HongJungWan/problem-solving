@@ -54,9 +54,9 @@ func flattenTriangle(triangle [][]int) []int {
 }
 
 func main() {
-	fmt.Println(generateSnailTriangle(4)) // Output: [1 2 9 3 10 8 4 5 6 7]
-	fmt.Println(generateSnailTriangle(5)) // Output: [1 2 12 3 13 11 4 14 15 10 5 6 7 8 9]
-	fmt.Println(generateSnailTriangle(6)) // Output: [1 2 15 3 16 14 4 17 21 13 5 18 19 20 12 6 7 8 9 10 11]
+	fmt.Println(generateSnailTriangle(4)) // [1,2,9,3,10,8,4,5,6,7]
+	fmt.Println(generateSnailTriangle(5)) // [1,2,12,3,13,11,4,14,15,10,5,6,7,8,9]
+	fmt.Println(generateSnailTriangle(6)) // [1,2,15,3,16,14,4,17,21,13,5,18,19,20,12,6,7,8,9,10,11]
 }
 
 /*
