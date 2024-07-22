@@ -1,3 +1,4 @@
+// TODO: 소수 찾기 1
 package main
 
 import (
