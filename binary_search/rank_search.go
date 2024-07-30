@@ -1,3 +1,7 @@
+// TODO: 순위 검색
+// TODO: 조합(combination), 정렬(sort), 이분 탐색(binary search)을 이용한 문제
+// https://school.programmers.co.kr/learn/courses/30/lessons/72412
+
 package main
 
 import (
