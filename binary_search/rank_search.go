@@ -59,8 +59,12 @@ func processQueries(infoMap map[string][]int, query []string) []int {
 
 		// 조건에 맞는 점수 리스트를 찾음
 		if scores, found := infoMap[key]; found {
-			// 이분 탐색을 사용하여 목표 점수 이상인 점수의 첫 인덱스를 찾음
-			idx := sort.Search(len(scores), func(i int) bool { return scores[i] >= targetScore })
+
+			// 이분 탐색을 사용하여, "scores[i] >= targetScore"인 첫 번째 요소의 인덱스를 찾음.
+			idx := sort.Search(len(scores), func(i int) bool {
+				return scores[i] >= targetScore
+			})
+
 			// 목표 점수 이상인 지원자 수를 계산
 			result[i] = len(scores) - idx
 		} else {
