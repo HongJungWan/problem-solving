@@ -10,7 +10,7 @@ import (
 func numberList(phoneBook []string) bool {
 	phoneMap := make(map[string]bool)
 
-	// 모든 전화번호를 해시맵에 저장
+	// 모든 전화번호를 맵에 저장
 	for _, phone := range phoneBook {
 		phoneMap[phone] = true
 	}
@@ -22,7 +22,7 @@ func numberList(phoneBook []string) bool {
 		for _, ch := range phone {
 			prefix += string(ch)
 
-			// 현재 번호와 동일하지 않은 접두어가 해시맵에 있는지 확인
+			// 접두어가 맵에 있는지 확인
 			if prefix != phone && phoneMap[prefix] {
 				return false
 			}
