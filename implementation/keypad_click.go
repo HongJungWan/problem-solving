@@ -21,7 +21,7 @@ func distance(pos1, pos2 [2]int) int {
 	return int(math.Abs(float64(pos1[0]-pos2[0])) + math.Abs(float64(pos1[1]-pos2[1])))
 }
 
-func solution(numbers []int, hand string) string {
+func keypadDistance(numbers []int, hand string) string {
 	leftPosition := position['*']  // 왼손의 초기 위치 (*)
 	rightPosition := position['#'] // 오른손의 초기 위치 (#)
 	result := ""
@@ -65,7 +65,7 @@ func solution(numbers []int, hand string) string {
 }
 
 func main() {
-	fmt.Println(solution([]int{1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5}, "right")) // 출력: "LRLLLRLLRRL"
-	fmt.Println(solution([]int{7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2}, "left"))  // 출력: "LRLLRRLLLRR"
-	fmt.Println(solution([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}, "right"))    // 출력: "LLRLLRLLRL"
+	fmt.Println(keypadDistance([]int{1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5}, "right")) // 출력: "LRLLLRLLRRL"
+	fmt.Println(keypadDistance([]int{7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2}, "left"))  // 출력: "LRLLRRLLLRR"
+	fmt.Println(keypadDistance([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}, "right"))    // 출력: "LLRLLRLLRL"
 }
