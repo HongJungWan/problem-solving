@@ -1,19 +1,23 @@
-# Project Structure
+# Problem Solving
 
 | Main Folder       | Sub Folder                                    | Number of Questions        |
 |-------------------|-----------------------------------------------|----------------------------|
-| 📁 array          |                                               | 04                         |
-| 📁 brute_force    |                                               | 05                         |
-| 📁 dp             | 📂 fibonacci                                  | 04                         |
-| 📁 graph          | 📂 bfs<br> 📂 dfs                             | 02 <br> 11                 |
-| 📁 greedy         |                                               | 14                         |
-| 📁 linked_list    | 📂 basic<br> 📂 detection<br> 📂 merge<br> 📂 reverse | 01 <br> 01 <br> 01 <br> 01 |
-| 📁 queue          | 📂 basic<br> 📂 stack                         | 01 <br> 01                 |
-| 📁 sort           |                                               | 10                         |
-| 📁 sql            |                                               | 18                         |
-| 📁 stack          | 📂 basic<br> 📂 parenthesis<br> 📂 queue      | 01 <br> 02 <br> 03         |
+| 📁 implementation |                                               | 27                         |
 | 📁 string         |                                               | 23                         |
+| 📁 sort           |                                               | 20                         |
+| 📁 sql            |                                               | 18                         |
+| 📁 greedy         |                                               | 14                         |
+| 📁 graph          | 📂 dfs<br> 📂 bfs                              | 11 <br> 02                 |
+| 📁 stack          |                                               | 10                         |
+| 📁 linked_list    | 📂 basic<br> 📂 detection<br> 📂 merge<br> 📂 reverse | 01 <br> 01 <br> 01 <br> 01 |
+| 📁 dp             | 📂 fibonacci                                  | 04                         |
+| 📁 array          |                                               | 04                         |
+| 📁 queue          |                                               | 05                         |
+| 📁 brute_force    |                                               | 05                         |
 | 📁 binary tree    |                                               | 03                         |
 | 📁 heap           |                                               | 03                         |
 | 📁 binary search  |                                               | 02                         |
-| 📁 implementation |                                               | 08                         |
+
+<br>
+
+## Total : 146
