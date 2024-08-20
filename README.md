@@ -5,7 +5,7 @@
 | 📁 implementation |                                               | 27                         |
 | 📁 string         |                                               | 23                         |
 | 📁 sort           |                                               | 20                         |
-| 📁 sql            |                                               | 18                         |
+| 📁 sql            |                                               | 32                         |
 | 📁 greedy         |                                               | 14                         |
 | 📁 graph          | 📂 dfs<br> 📂 bfs                              | 11 <br> 02                 |
 | 📁 stack          |                                               | 10                         |
