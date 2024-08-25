@@ -2,7 +2,7 @@
 
 | Main Folder       | Sub Folder                                    | Number of Questions        |
 |-------------------|-----------------------------------------------|----------------------------|
-| 📁 implementation |                                               | 27                         |
+| 📁 implementation |                                               | 31                         |
 | 📁 string         |                                               | 23                         |
 | 📁 sort           |                                               | 20                         |
 | 📁 sql            |                                               | 32                         |
